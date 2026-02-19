@@ -1,0 +1,9 @@
+/* Active Prayer Highlight */
+.prayer-card.active-prayer {
+    @apply bg-gradient-to-br from-yellow-500 to-orange-500 border-yellow-400 shadow-lg shadow-yellow-500/50 scale-105;
+}
+
+.prayer-card.active-prayer h3,
+.prayer-card.active-prayer div {
+    @apply text-white;
+}
